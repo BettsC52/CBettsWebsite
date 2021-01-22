@@ -1,0 +1,271 @@
+/* Comments */
+
+/* selector {
+    property: value
+    property: value
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+html {
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    box-sizing: border-box;
+    width: 100%; height: 100%; */
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* box-sizing: 20px 100px 20px; */
+}
+
+body {
+    background-image: radial-gradient(circle, lightgrey, darkgrey);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    width: 100%;
+    padding: 0% 5% 1%;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    box-sizing: border-box;
+    width: 100%; height: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    background-color: cadetblue;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    background-color: lightblue;
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+}
+
+ul {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: left;
+}
+
+a { color:black } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none;}
+a:focus { text-decoration: none;}
+a:hover, a:active { text-decoration: none;}
+
+video {
+    align-self: left;
+}
+
+#footer img {
+    width: 15%;
+}
+
+footer {
+    margin-bottom:5%;
+    margin-right: 75%;
+}
+
+.mehead {
+    width: 10%;
+    border-radius: 20px;
+}
+
+/* #navbar ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-self: center;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover
+*/
+#navbar .box:hover {
+    background-color: lightblue;
+    font-family: 'Calibri', cursive;
+} 
+
+#navbar a {
+    font-family: 'Calibri', cursive;
+    text-decoration: none;
+} 
+
+
+#gallery .box {
+    width: 25%;
+
+    /* -webkit-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    flex-basis: auto;
+    padding: 1%;
+    
+}
+
+#gallery .container {
+    background-color: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    min-width: 25%;
+    height: 20%;
+}
+
+#gallery .box1 {
+    background-color: unset;
+}
+
+#gallery .box2 {
+    background-color: unset;
+}
+
+#gallery .box3 {
+    background-color: unset;
+}
+
+#gallery .box4 {
+    background-color: unset;
+}
+
+#gallery .box5 {
+    background-color: unset;
+}
+
+#gallery img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* .gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    align-content: center;
+}
+
+.gallery__img {
+    width: 75%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: auto;
+}
+
+.gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-right: auto;
+}
+
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left: auto;
+}
+
+.gallery__item--4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-shrink: 2;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 0vh;
+    box-sizing: border-box;
+    flex: 2;
+    flex-shrink: 2;
+    flex-grow: 2;
+    overflow: hidden;
+}
+
+/* Colours for each box */
+
+.box1 { background: skyblue; 
+        min-height: 10vh;
+        align-items: center;
+    }
+.box2 { background: skyblue; 
+        min-height: 10vh;
+    }
+.box3 { background: skyblue;
+    min-height: 10vh; 
+}
+.box4 { background: skyblue; 
+    min-height: 10vh;
+}
+.box5 { background: skyblue; 
+    min-height: 10vh;
+}
